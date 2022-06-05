@@ -11,7 +11,7 @@ const dates = [
 const createDate = (dates, index) => {
   const newDate = [];
   for (let i = 0; i < dates.length; i++) {
-    const date = (new Date(dates[i]).getTime() / 1000).toString;
+    const date = (new Date(dates[i]).getTime() / 1000).toString();
     newDate.push(date);
   }
 
